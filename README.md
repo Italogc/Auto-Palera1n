@@ -13,7 +13,7 @@ ITALOGC IOS
 
 <pre>sudo apt install git -y</pre>
 
-<pre>git clone https://github.com/Cozmo007/Auto-Palera1n</pre>
+<pre>git clone https://github.com/Italogc/Auto-Palera1n</pre>
 
 <pre>cd Auto-Palera1n</pre>
 
@@ -35,6 +35,5 @@ ITALOGC IOS
 
 <pre>sudo ./palera1n.sh --restorerootfs SUA_VERSAO_IOS</pre>
 
-<p>Siga os procedimentos, quaisquer erro no programa entre em contato comigo via telegram <i>@joaoooo007</i></p>
 
 <p>Obrigado!</p>
