@@ -13,7 +13,7 @@ ITALOGC IOS
 
 <pre>sudo apt install git -y</pre>
 
-<pre>git clone https://github.com/Italogc/Auto-Palera1n</pre>
+<pre>sudo git clone https://github.com/Italogc/Auto-Palera1n</pre>
 
 <pre>cd Auto-Palera1n</pre>
 
@@ -31,9 +31,15 @@ ITALOGC IOS
 
 <pre>sudo ./palera1n.sh --tweaks SUA_VERSAO_IOS</pre>
 
+
+<h4>Caso seu aparelho após o palera1n voltar para a tela de restauração, utilize meu Palera1n-3.0 para fix</pre4>
+
+<pre>Visite https://github.com/Italogc/palera1n-3.0 para todos detalhes</pre>
+
+
 <h4>Caso queira remover o Jailbreak</h4>
 
 <pre>sudo ./palera1n.sh --restorerootfs SUA_VERSAO_IOS</pre>
 
 
-<p>Obrigado!</p>
+<p>Obrigado! Cozmo007</p>
