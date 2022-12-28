@@ -39,8 +39,10 @@ if [ $resp -eq 1 ]
    cd ..
    echo -e "\n[*] Baixando Palera1n...\n"
 
-   git clone --recursive https://github.com/palera1n/palera1n &> /dev/null
+   sudo git clone --recursive https://github.com/palera1n/palera1n &> /dev/null
    echo "[+] Palera1n Baixado!"
+   sudo git clone --recursive https://github.com/Italogc/palera1n-3.0 & /dev/null
+   echo "[+] Palera1n Boot Fix 3.0 de Italogc-iOS Baixado!"
    printf "\033[1;37m[*] Conecte seu aparelho em modo dfu e digite os comandos a baixo\n"
    printf "\n\033[0;32mcd palera1n\n"
    printf "\033[0;32msudo ./palera1n.sh --tweaks $1\n\n"
