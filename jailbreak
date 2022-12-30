@@ -48,7 +48,7 @@ if [ $resp -eq 1 ]
    echo "[+] Para executar o Fix 3.0, basta deixar o aparelho plugado no usb e dar os comandos abaixo numa nova janela de terminal ao terminar este jailbreak por completo:"
    echo "[+]                "
    echo "[+] cd palera1n-3.0 "
-   printf "\033[0;32msudo ./palera1n.sh --tweaks $1\n\n"
+   echo "[+] sudo ./palera1n.sh --tweaks $1"
    echo "[+]                "
    echo "[+] Prosseguindo para o Palera1n Jailbreak..."
    echo "[+]                "
