@@ -2,9 +2,9 @@
 
 # Funciona apenas apartir de qualquer distro baseada no ubuntu 22.04 pra cima.
 
-echo "==============================="
-echo " Bem-vindo ao Auto-Palera1n!"
-echo "==============================="
+echo "========================================"
+echo " Bem-vindo ao Auto-Palera1n de COZMO007!"
+echo "========================================"
 echo "Voce escolheu o iOS $1"
 echo "Digite 1 para iniciar ou 0 para sair"
 read resp
