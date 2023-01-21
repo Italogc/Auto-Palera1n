@@ -1,5 +1,5 @@
 # Auto-Palera1n
-Antigo projeto inovador do meu colega Cozmo007, antes dele virar a casaca e resolver ferrar todo seu projeto, bootando os aparelhos de seus admiradores, por motivos fúteis de extresse pessoal (mental). Neste momento, gostaria de abrigar no meu github todo seu projeto de maior reconhecimento até que ele repense em suas atitudes e queira fazer o bem para todos novamente... Enquanto isso, recomendo a todos que no momento, não utilizem o auto-palera1n lá no cozmo007 e utilize este daqui do meu github. Abraços a todos e feliz ano novo a todos! ;) 
+Antigo projeto inovador da equipe oficial do jailbreak "Palera1n Gui Linux" no qual meu colega Cozmo007, havia clonado e tomado como de sua autoria antes dele virar a casaca e resolver ferrar todo mundo em pleno dia de natal, bootando os aparelhos de seus admiradores, por motivos fúteis de extresse pessoal (mental). Neste momento, gostaria de abrigar no meu github este projeto afim somente de ajudar a todos usuários da comunidade do jailbreak. Já sobre sobre o Cozmo007, desejo que ele repense em suas atitudes erradas e queira fazer o bem para todos novamente e sem clonar direitos autorais de projetos que não eram de fato de sua autoria. Enquanto isso, recomendo a todos que no momento utilize este daqui do meu github. TODOS OS CRÉDITOS AOS DESENVOLVEDORES OFICIAIS DO PALERA1N GUI. Abraços a todos e feliz ano novo a todos! ;) 
 
 ITALOGC IOS
 
@@ -41,4 +41,4 @@ ITALOGC IOS
 <pre>sudo ./palera1n.sh --restorerootfs SUA_VERSAO_IOS</pre>
 
 
-<p>Obrigado! Cozmo007</p>
+<p>Obrigado!</p>
