@@ -31,7 +31,7 @@ ITALOGC IOS
 <pre>sudo ./palera1n.sh --tweaks SUA_VERSAO_IOS</pre>
 
 
-<h4>Caso seu aparelho após o palera1n voltar para a tela de restauração, utilize meu Palera1n-3.0 para fix</h4>
+<h4>Caso seu aparelho volte para a tela de restauração ao concluir o jailbreak, utilize meu Palera1n-3.0 para fix</h4>
 
 <pre>cd palera1n-3.0</pre>
 
