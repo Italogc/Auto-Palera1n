@@ -11,38 +11,38 @@ read resp
 if [ $resp -eq 1 ]
  then
    echo -e "\033[0;37m[*] Instalando Dependencias pode demorar um pouco..."
-   sudo apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update > /dev/null
-   sudo apt update > /dev/null
-   sudo apt install git -y > /dev/null
-   sudo apt-get install sudo gcc bash wget python3-pip libavahi-client-dev libusb-1.0-0 libusb-1.0-0-dev libadolc2 libusbmuxd-tools libtool usbmuxd libtool-bin autoconf automake libimobiledevice* make -y > /dev/null
-   sudo pip install pyimg4 &> /dev/null
-   wget https://github.com/Italogc/Auto-Palera1n/raw/main/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb &> /dev/null
-   wget https://github.com/CoocooFroggy/FutureRestore-GUI/releases/download/v1.98.2/FutureRestore-GUI-Debian-1.98.2.deb &> /dev/null
-   sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb > /dev/null
-   sudo dpkg -i FutureRestore-GUI-Debian-1.98.2.deb > /dev/null
-   sudo git clone https://github.com/tihmstar/libgeneral &> /dev/null
+   sudo apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update
+   sudo apt-get update
+   sudo apt-get install git -y
+   sudo apt-get install sudo gcc bash wget python3-pip libavahi-client-dev libusb-1.0-0 libusb-1.0-0-dev libadolc2 libusbmuxd-tools libtool usbmuxd libtool-bin autoconf automake libimobiledevice* make -y
+   sudo pip install pyimg4
+   wget https://github.com/Italogc/Auto-Palera1n/raw/main/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+   wget https://github.com/CoocooFroggy/FutureRestore-GUI/releases/download/v1.98.2/FutureRestore-GUI-Debian-1.98.2.deb
+   sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+   sudo dpkg -i FutureRestore-GUI-Debian-1.98.2.deb
+   sudo git clone https://github.com/tihmstar/libgeneral
    cd libgeneral
    printf "\n[*] Compilando LIBGENERAL...\n\n"
-   sudo ./autogen.sh &> /dev/null
-   sudo make &> /dev/null
-   sudo make install &> /dev/null
+   sudo ./autogen.sh
+   sudo make
+   sudo make install
    cd ..
-   sudo git clone https://github.com/tihmstar/usbmuxd2 &> /dev/null
+   sudo git clone https://github.com/tihmstar/usbmuxd2
    cd usbmuxd2
    printf "\n[*] Compilando USBMUXD2...\n\n"
-   sudo ./autogen.sh &> /dev/null
-   sudo make &> /dev/null
-   sudo make install &> /dev/null
+   sudo ./autogen.sh
+   sudo make
+   sudo make install
    printf "\n[+] Dependencias instaladas!\n"
    sleep 1
    sudo systemctl stop usbmuxd
    sudo systemctl daemon-reload
    cd ..
    echo -e "\n[*] Baixando Palera1n...\n"
-   sudo git clone --recursive https://github.com/palera1n/palera1n -b legacy &> /dev/null
+   sudo git clone --recursive https://github.com/palera1n/palera1n -b legacy
    echo "[+] Palera1n Baixado!"
-   sudo git clone --recursive https://github.com/Italogc/usbmuxd2 &> /dev/null
-   sudo git clone --recursive https://github.com/Italogc/palera1n-3.0 &> /dev/null
+   sudo git clone --recursive https://github.com/Italogc/usbmuxd2
+   sudo git clone --recursive https://github.com/Italogc/palera1n-3.0
    echo "[+] Palera1n Boot Fix 3.0 de Italogc-iOS Baixado!"
    echo "[+] Caso no final do Palera1n seu aparelho crashe em Modo Recuperação, execute o palerain-3.0 do iTalogc iOS para dar fix neste problema." 
    echo "[+] Para executar o Fix 3.0 é necessário terminar este jailbreak por completo antes:"
